@@ -1,0 +1,57 @@
+#addBook {
+  display: block;
+  height: 50px;
+  width: 200px;
+  margin: 25px auto;
+  font-size: 1.4rem;
+  color: #e6e6e6;
+  background-color: #1a1a1a;
+  border: 2px solid #0d0d0d;
+  border-radius: 2px;
+  transition: 0.2s;
+}
+
+#addBook:hover {
+  cursor: pointer;
+  background-color: #262626;
+  border-color: #1a1a1a;
+  transition: 0.2s;
+}
+
+table {
+  width: 80vw;
+  max-width: 1000px;
+  margin: auto;
+  border-collapse: collapse;
+  box-shadow: 0px 0px 5px #0d0d0d;
+}
+
+table th, table td {
+  border: 2px solid #1a1a1a;
+  padding: 5px;
+}
+
+table th {
+  background-color: #262626;
+  color: #e6e6e6;
+  text-align: left;
+}
+
+table tr {
+  background-color: #004080;
+}
+
+table tr:nth-child(even) {
+  background-color: #0066cc;
+}
+
+th.pages {width: 7.5%}
+th.read {width: 7.5%}
+th.changeRead {width: 15%}
+th.removeBook {width: 15%}
+
+td button {
+  display: block;
+  margin: auto;
+  width: 80%;
+}
